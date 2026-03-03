@@ -50,7 +50,7 @@ export default function QRGeneratorPage() {
                             fgColor={"#050505"}
                             level={"H"}
                             imageSettings={{
-                                src: "/medusa-logo-black.png", // Asegúrate de tener public/medusa-logo.png
+                                src: "/medusa-logo-black.png",
                                 x: undefined,
                                 y: undefined,
                                 height: 55,

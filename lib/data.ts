@@ -1,4 +1,6 @@
-export const menuData = {
+import { MenuData } from "./types";
+
+export const menuData : MenuData = {
   categories: [
     { id: "cocteles", label: "Cócteles & Sodas" },
     { id: "comidas", label: "Comidas" },
