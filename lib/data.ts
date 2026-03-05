@@ -1,11 +1,11 @@
 import { MenuData } from "./types";
 
-export const menuData : MenuData = {
+export const menuData: MenuData = {
   categories: [
     { id: "cocteles", label: "Cócteles & Sodas" },
-    { id: "comidas", label: "Comidas" },
-    { id: "licores", label: "Licores & Vinos" },
     { id: "bebidas", label: "Cervezas & Más" },
+    { id: "licores", label: "Licores & Vinos" },
+    { id: "comidas", label: "Comidas" },
   ],
   items: {
     cocteles: [
@@ -134,85 +134,6 @@ export const menuData : MenuData = {
         price: "$15.000",
         type: "Soda",
         image: "/assets/soda-frutos-rojos.jpeg",
-      }
-    ],
-    comidas: [
-      {
-        id: "f-1",
-        name: "Picada",
-        description: "Pollo, cerdo, chorizo, costilla, papa criolla, papas a la francesa, rapiyuca.",
-        price: "$26.000",
-        image: "/assets/placeholder.jpg",
-      },
-      {
-        id: "f-2",
-        name: "Tacos Mixtos",
-        description: "Res y pollo.",
-        price: "$15.000",
-        image: "/assets/placeholder.jpg",
-      },
-      {
-        id: "f-3",
-        name: "Pincho de Pollo",
-        description: "Acompañado de arepa.",
-        price: "$15.000",
-        image: "/assets/placeholder.jpg",
-      },
-      {
-        id: "f-4",
-        name: "Pechuga Gratinada",
-        description: "Acompañada de papas a la francesa.",
-        price: "$19.000",
-        image: "/assets/placeholder.jpg",
-      },
-      {
-        id: "f-5",
-        name: "Costillas BBQ",
-        description: "Acompañadas de patacones.",
-        price: "$19.000",
-        image: "/assets/placeholder.jpg",
-      },
-      {
-        id: "f-6",
-        name: "Hamburguesa con Pan",
-        description: "Carne de res, tomate, lechuga, queso, cebolla caramelizada, salsas.",
-        price: "$13.000",
-        image: "/assets/placeholder.jpg",
-      },
-      {
-        id: "f-7",
-        name: "Chorizo Artesanal",
-        description: "Acompañado de arepa.",
-        price: "$16.000",
-        image: "/assets/placeholder.jpg",
-      },
-      {
-        id: "f-8",
-        name: "Lomo de Cerdo",
-        description: "Acompañado de patacones.",
-        price: "$19.000",
-        image: "/assets/placeholder.jpg",
-      },
-      {
-        id: "f-9",
-        name: "Lomo de Res",
-        description: "Acompañado de patacones.",
-        price: "$19.000",
-        image: "/assets/placeholder.jpg",
-      },
-      {
-        id: "f-10",
-        name: "Pizza Personal",
-        description: "Sabores: Pollo con champiñones, mixta, hawaiana, mexicana.",
-        price: "$17.000",
-        image: "/assets/placeholder.jpg",
-      },
-      {
-        id: "f-11",
-        name: "Porción de Papas",
-        description: "Papas a la francesa.",
-        price: "$6.000",
-        image: "/assets/placeholder.jpg",
       }
     ],
     licores: [
@@ -359,7 +280,7 @@ export const menuData : MenuData = {
         description: "Cerveza nacional.",
         price: "$4.500",
         type: "Cerveza",
-        image: "/assets/placeholder.jpg",
+        image: "/assets/cervezas.jpeg",
       },
       {
         id: "b-cer-2",
@@ -367,7 +288,7 @@ export const menuData : MenuData = {
         description: "Cerveza nacional.",
         price: "$4.000",
         type: "Cerveza",
-        image: "/assets/placeholder.jpg",
+        image: "/assets/costeña.jpeg",
       },
       {
         id: "b-cer-3",
@@ -375,7 +296,7 @@ export const menuData : MenuData = {
         description: "Cervezas importadas y ligeras.",
         price: "$5.000",
         type: "Cerveza",
-        image: "/assets/placeholder.jpg",
+        image: "/assets/reds.jpeg",
       },
       {
         id: "b-cer-4",
@@ -383,7 +304,7 @@ export const menuData : MenuData = {
         description: "Cerveza importada.",
         price: "$6.000",
         type: "Cerveza",
-        image: "/assets/placeholder.jpg",
+        image: "/assets/coronita.jpeg",
       },
       {
         id: "b-cer-5",
@@ -391,7 +312,7 @@ export const menuData : MenuData = {
         description: "Cerveza importada.",
         price: "$7.000",
         type: "Cerveza",
-        image: "/assets/placeholder.jpg",
+        image: "/assets/stella.jpeg",
       },
       {
         id: "b-cer-6",
@@ -399,7 +320,7 @@ export const menuData : MenuData = {
         description: "Cerveza premium nacional.",
         price: "$8.000",
         type: "Cerveza",
-        image: "/assets/placeholder.jpg",
+        image: "/assets/club.jpeg",
       },
       {
         id: "b-hid-1",
@@ -407,7 +328,7 @@ export const menuData : MenuData = {
         description: "Bebida hidratante.",
         price: "$5.000",
         type: "Hidratante",
-        image: "/assets/placeholder.jpg",
+        image: "/assets/gatorade.jpeg",
       },
       {
         id: "b-hid-2",
@@ -415,7 +336,7 @@ export const menuData : MenuData = {
         description: "Bebida hidratante.",
         price: "$10.000",
         type: "Hidratante",
-        image: "/assets/placeholder.jpg",
+        image: "/assets/electrolit.jpeg",
       },
       {
         id: "b-hid-3",
@@ -423,7 +344,7 @@ export const menuData : MenuData = {
         description: "Agua en botella.",
         price: "$2.000",
         type: "Hidratante",
-        image: "/assets/placeholder.jpg",
+        image: "/assets/agua.jpeg",
       },
       {
         id: "b-hid-4",
@@ -431,7 +352,7 @@ export const menuData : MenuData = {
         description: "Soda en botella.",
         price: "$3.000",
         type: "Hidratante",
-        image: "/assets/placeholder.jpg",
+        image: "/assets/soda.jpeg",
       },
       {
         id: "b-gas-1",
@@ -439,7 +360,7 @@ export const menuData : MenuData = {
         description: "Gaseosa personal.",
         price: "$4.000",
         type: "Gaseosa",
-        image: "/assets/placeholder.jpg",
+        image: "/assets/coca.jpeg",
       },
       {
         id: "b-gas-2",
@@ -447,8 +368,87 @@ export const menuData : MenuData = {
         description: "Bebida refrescante.",
         price: "$10.000",
         type: "Gaseosa",
-        image: "/assets/placeholder.jpg",
+        image: "/assets/soda-saborisada.jpeg",
       }
-    ]
-  }
+    ],
+  comidas: [
+      {
+        id: "f-1",
+        name: "Picada",
+        description: "Pollo, cerdo, chorizo, costilla, papa criolla, papas a la francesa, rapiyuca.",
+        price: "$26.000",
+        image: "/assets/picada.jpeg",
+      },
+      {
+        id: "f-2",
+        name: "Tacos Mixtos",
+        description: "Res y pollo.",
+        price: "$15.000",
+        image: "/assets/tacos.jpeg",
+      },
+      {
+        id: "f-3",
+        name: "Pincho de Pollo",
+        description: "Acompañado de arepa.",
+        price: "$15.000",
+        image: "/assets/pincho.jpeg",
+      },
+      {
+        id: "f-4",
+        name: "Pechuga Gratinada",
+        description: "Acompañada de papas a la francesa.",
+        price: "$19.000",
+        image: "/assets/pechuga.jpeg",
+      },
+      {
+        id: "f-5",
+        name: "Costillas BBQ",
+        description: "Acompañadas de patacones.",
+        price: "$19.000",
+        image: "/assets/costillas.jpeg",
+      },
+      {
+        id: "f-6",
+        name: "Hamburguesa con Pan",
+        description: "Carne de res, tomate, lechuga, queso, cebolla caramelizada, salsas.",
+        price: "$13.000",
+        image: "/assets/hamburguesa.jpeg",
+      },
+      {
+        id: "f-7",
+        name: "Chorizo Artesanal",
+        description: "Acompañado de arepa.",
+        price: "$16.000",
+        image: "/assets/chorizo.jpeg",
+      },
+      {
+        id: "f-8",
+        name: "Lomo de Cerdo",
+        description: "Acompañado de patacones.",
+        price: "$19.000",
+        image: "/assets/cerdo.jpeg",
+      },
+      {
+        id: "f-9",
+        name: "Lomo de Res",
+        description: "Acompañado de patacones.",
+        price: "$19.000",
+        image: "/assets/res.jpeg",
+      },
+      {
+        id: "f-10",
+        name: "Pizza Personal",
+        description: "Sabores: Pollo con champiñones, mixta, hawaiana, mexicana.",
+        price: "$17.000",
+        image: "/assets/pizza.jpeg",
+      },
+      {
+        id: "f-11",
+        name: "Porción de Papas",
+        description: "Papas a la francesa.",
+        price: "$6.000",
+        image: "/assets/papas.jpeg",
+      }
+    ],
+  },
 };
