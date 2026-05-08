@@ -1,16 +1,19 @@
+// app/qr/page.tsx
 "use client";
 
 import React, { useRef } from "react";
+import Link from "next/link";
 import { QRCodeCanvas } from "qrcode.react";
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
+import { ChevronLeft } from "lucide-react";
 
 export default function QRGeneratorPage() {
-    // Tu dominio real y definitivo
-    const menuUrl = "https://medusa.scryved.com";
+    // URL directa a la ruta del menú interactivo
+    const menuUrl = "https://medusa.scryved.com/menu";
     const qrRef = useRef<HTMLDivElement>(null);
 
-    // Función mágica para descargar el QR en alta calidad
+    // Función para descargar el QR en alta calidad
     const downloadQR = () => {
         const canvas = qrRef.current?.querySelector("canvas");
         if (!canvas) return;
@@ -27,6 +30,14 @@ export default function QRGeneratorPage() {
     return (
         <main className="min-h-screen bg-[#050505] flex items-center justify-center p-6 relative overflow-hidden">
 
+            {/* Botón Volver al Inicio */}
+            <Link
+                href="/"
+                className="absolute top-8 left-6 z-50 p-2 bg-[#111111]/80 backdrop-blur-md rounded-full border border-white/10 hover:bg-white/5 transition-colors"
+            >
+                <ChevronLeft className="w-6 h-6 text-[#d4af37]" />
+            </Link>
+
             {/* Fondo decorativo */}
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-[#d4af37]/10 blur-[100px] rounded-full pointer-events-none" />
 
@@ -36,7 +47,7 @@ export default function QRGeneratorPage() {
                         QR del Menú
                     </CardTitle>
                     <CardDescription className="text-gray-400">
-                        Escanea para ver la carta digital
+                        Escanea para ir directo a la carta digital
                     </CardDescription>
                 </CardHeader>
 

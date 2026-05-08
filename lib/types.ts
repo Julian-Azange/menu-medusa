@@ -4,21 +4,18 @@ export interface MenuItem {
     description: string;
     price: string;
     image: string;
-    type?: string; // El signo '?' hace que 'type' sea opcional
-    note?: string; // 'note' también es opcional
+    category: string;
+    type?: string; // Ej: "Popular", "Picante", "Veggie"
+    note?: string;
 }
 
-export interface MenuCategory {
+export interface Category {
     id: string;
     label: string;
+    icon?: string;
 }
 
 export interface MenuData {
-    categories: MenuCategory[];
-    items: {
-        cocteles: MenuItem[];
-        comidas: MenuItem[];
-        licores: MenuItem[];
-        bebidas: MenuItem[];
-    };
+    categories: Category[];
+    items: Record<string, MenuItem[]>;
 }

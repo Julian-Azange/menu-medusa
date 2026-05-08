@@ -32,7 +32,7 @@ export const menuData: MenuData = {
         description: "Ron blanco, zumo de limón, soda, monín, granadina, Curaçao, syrup de frutos verdes, perlas explosivas.",
         price: "$30.000",
         type: "Autor",
-        image: "/assets/placeholder.jpg",
+        image: "/assets/prox.jpeg",
       },
       {
         id: "c-autor-4",
@@ -57,7 +57,7 @@ export const menuData: MenuData = {
         description: "Tequila, triple sec, syrup simple, zumo de limón.",
         price: "$18.000",
         type: "Tradicional",
-        image: "/assets/placeholder.jpg",
+        image: "/assets/margarita.jpeg",
       },
       {
         id: "c-trad-2",
@@ -65,7 +65,7 @@ export const menuData: MenuData = {
         description: "Vodka, vermut, aceitunas.",
         price: "$25.000",
         type: "Tradicional",
-        image: "/assets/placeholder.jpg",
+        image: "/assets/prox.jpeg",
       },
       {
         id: "c-trad-3",
@@ -73,7 +73,7 @@ export const menuData: MenuData = {
         description: "Ginebra, Aperol Spritz, Jägermeister.",
         price: "$40.000",
         type: "Tradicional",
-        image: "/assets/placeholder.jpg",
+        image: "/assets/prox.jpeg",
       },
       {
         id: "c-trad-4",
@@ -81,7 +81,7 @@ export const menuData: MenuData = {
         description: "Ron blanco, soda, hierbabuena, zumo de limón.",
         price: "$20.000",
         type: "Tradicional",
-        image: "/assets/placeholder.jpg",
+        image: "/assets/prox.jpeg",
       },
       {
         id: "c-trad-5",
@@ -99,7 +99,7 @@ export const menuData: MenuData = {
         price: "$65.000",
         note: "Para 4-5 personas. Tamaño Mini (1-2 personas): $30.000",
         type: "Para Compartir",
-        image: "/assets/placeholder.jpg",
+        image: "/assets/peceras.jpeg",
       },
       {
         id: "c-comp-2",
@@ -108,7 +108,7 @@ export const menuData: MenuData = {
         price: "$70.000",
         note: "Para 4-5 personas.",
         type: "Para Compartir",
-        image: "/assets/placeholder.jpg",
+        image: "/assets/sangria.jpeg",
       },
       // --- SODAS SABORIZADAS ---
       {
@@ -144,7 +144,7 @@ export const menuData: MenuData = {
         description: "Águila, Águila Light, Poker, Budweiser, Redd's, Heineken, Costeña, Coronita.",
         price: "$12.000",
         type: "Michelada",
-        image: "/assets/placeholder.jpg",
+        image: "/assets/michelada-clasica.jpeg",
       },
       {
         id: "l-mich-2",
@@ -152,7 +152,7 @@ export const menuData: MenuData = {
         description: "Club Colombia Dorada, Stella Artois.",
         price: "$15.000",
         type: "Michelada",
-        image: "/assets/placeholder.jpg",
+        image: "/assets/michelada-premium.jpeg",
       },
       // --- VINOS ---
       {
@@ -162,7 +162,7 @@ export const menuData: MenuData = {
         price: "$50.000",
         note: "Botella",
         type: "Vino",
-        image: "/assets/placeholder.jpg",
+        image: "/assets/vino-artesanal.jpeg",
       },
       {
         id: "l-vino-2",
@@ -171,7 +171,7 @@ export const menuData: MenuData = {
         price: "$40.000",
         note: "Botella",
         type: "Vino",
-        image: "/assets/placeholder.jpg",
+        image: "/assets/prox.jpeg",
       },
       {
         id: "l-vino-3",
@@ -180,7 +180,7 @@ export const menuData: MenuData = {
         price: "$40.000",
         note: "Botella",
         type: "Vino",
-        image: "/assets/placeholder.jpg",
+        image: "/assets/prox.jpeg",
       },
       {
         id: "l-vino-4",
@@ -189,7 +189,7 @@ export const menuData: MenuData = {
         price: "$80.000",
         note: "Botella (Rango: $80.000 - $100.000)",
         type: "Vino",
-        image: "/assets/placeholder.jpg",
+        image: "/assets/prox.jpeg",
       },
       {
         id: "l-vino-5",
@@ -197,7 +197,7 @@ export const menuData: MenuData = {
         description: "Vino de la casa por copa.",
         price: "$15.000",
         type: "Vino",
-        image: "/assets/placeholder.jpg",
+        image: "/assets/copa-vino.jpeg",
       },
       // --- LICORES FUERTES ---
       {
@@ -207,7 +207,7 @@ export const menuData: MenuData = {
         price: "Desde $6.000",
         note: "Trago: $6.000 | Media: $45.000 | Botella: $80.000",
         type: "Aguardiente",
-        image: "/assets/placeholder.jpg",
+        image: "/assets/aguardiente-amarillo.jpeg",
       },
       {
         id: "l-licor-2",
@@ -216,7 +216,7 @@ export const menuData: MenuData = {
         price: "Desde $6.000",
         note: "Trago: $6.000 | Media: $45.000",
         type: "Aguardiente",
-        image: "/assets/placeholder.jpg",
+        image: "/assets/aguardiente-doble-anis.jpeg",
       },
       {
         id: "l-licor-3",
@@ -225,7 +225,7 @@ export const menuData: MenuData = {
         price: "Desde $6.000",
         note: "Trago: $6.000 | Media: $50.000",
         type: "Ron",
-        image: "/assets/placeholder.jpg",
+        image: "/assets/ron-viejo-de-caldas.jpeg",
       },
       {
         id: "l-licor-4",
@@ -234,7 +234,7 @@ export const menuData: MenuData = {
         price: "Desde $7.000",
         note: "Trago: $7.000 | Botella: $85.000",
         type: "Ron",
-        image: "/assets/placeholder.jpg",
+        image: "/assets/ron-bacardi.jpeg",
       },
       {
         id: "l-licor-5",
@@ -243,7 +243,7 @@ export const menuData: MenuData = {
         price: "Desde $7.000",
         note: "Trago: $7.000 | Botella: $70.000",
         type: "Tequila",
-        image: "/assets/placeholder.jpg",
+        image: "/assets/prox.jpeg",
       },
       {
         id: "l-licor-6",
@@ -252,7 +252,7 @@ export const menuData: MenuData = {
         price: "Desde $7.000",
         note: "Trago: $7.000 | Botella: $65.000",
         type: "Vodka",
-        image: "/assets/placeholder.jpg",
+        image: "/assets/prox.jpeg",
       },
       {
         id: "l-licor-7",
@@ -261,7 +261,7 @@ export const menuData: MenuData = {
         price: "Desde $7.000",
         note: "Trago: $7.000 | Botella: $65.000",
         type: "Ginebra",
-        image: "/assets/placeholder.jpg",
+        image: "/assets/prox.jpeg",
       },
       {
         id: "l-licor-8",
@@ -270,7 +270,7 @@ export const menuData: MenuData = {
         price: "Desde $12.000",
         note: "Trago: $12.000 | Botella: $150.000",
         type: "Licor",
-        image: "/assets/placeholder.jpg",
+        image: "/assets/jaggermaster.jpeg",
       }
     ],
     bebidas: [
@@ -371,7 +371,7 @@ export const menuData: MenuData = {
         image: "/assets/soda-saborisada.jpeg",
       }
     ],
-  comidas: [
+    comidas: [
       {
         id: "f-1",
         name: "Picada",
