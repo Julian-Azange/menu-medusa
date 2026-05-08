@@ -13,6 +13,7 @@ const getCategoryIcon = (label: string) => {
     if (lowerLabel.includes("cervezas")) return "🍺";
     if (lowerLabel.includes("licores") || lowerLabel.includes("vinos")) return "🍷";
     if (lowerLabel.includes("comidas") || lowerLabel.includes("picadas")) return "🍔";
+    if (lowerLabel.includes("snack") || lowerLabel.includes("snack")) return "🍿";
     return "🍽️";
 };
 
