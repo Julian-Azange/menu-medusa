@@ -4,7 +4,7 @@ export interface MenuItem {
     description: string;
     price: string;
     image: string;
-    category: string;
+    category?: string;
     type?: string; // Ej: "Popular", "Picante", "Veggie"
     note?: string;
 }
