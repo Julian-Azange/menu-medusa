@@ -429,7 +429,7 @@ export const menuData: MenuData = {
       {
         id: "f-5",
         name: "Costillas BBQ",
-        description: "Acompañada de papas a la fransesa.",
+        description: "Acompañada de papas a la fransesa y patacones",
         price: "$24.000",
         image: "/assets/costillas.jpeg",
       },
