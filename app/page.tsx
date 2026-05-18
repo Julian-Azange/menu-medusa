@@ -77,7 +77,7 @@ export default function LandingPage() {
           </p>
         </motion.div>
 
-        {/* BOTÓN PRINCIPAL - HOMOLOGADO AL ESTILO DEL BOTÓN QR */}
+        {/* BOTÓN PRINCIPAL - HOMOLOGADO */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -128,6 +128,28 @@ export default function LandingPage() {
         </motion.div>
 
       </div>
+
+      {/* --- FOOTER SCRYVED --- */}
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 1, delay: 1.5 }} // Aparece de último suavemente
+        className="absolute bottom-4 w-full text-center z-20 pointer-events-auto"
+      >
+        <p className="text-gray-500/70 text-[9px] sm:text-[10px] tracking-[0.2em] uppercase font-light">
+          Realizado por{" "}
+          <a
+            href="https://scryved.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[#d4af37]/80 font-medium hover:text-[#d4af37] transition-colors cursor-pointer"
+          >
+            Scryved
+          </a>{" "}
+          • Colombia
+        </p>
+      </motion.div>
+
     </main>
   );
 }
